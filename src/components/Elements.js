@@ -1,8 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class Elements extends Component {
     render() {
         return (
+
             <div className="bg-elements">
                 <div className="container">
                     <div className="row mt-5">
@@ -20,10 +22,10 @@ export default class Elements extends Component {
                     </div>
                     <div className="icon-container">
                         <div className="row">
-                            <div className="col-md-4 media">
-                                <i>
-
-                                </i>
+                            <div className="col-md-4 media mt-0">
+                                <div className="icon bg-primary mr-3 mt-1">
+                                    <FontAwesomeIcon icon={['far','id-badge']} />
+                                </div>
                                 <div className="media-body">
                                     <h4 className="mt-0">
                                         Responsive
@@ -34,10 +36,10 @@ export default class Elements extends Component {
                                     responsive in all browsers.
                                 </div>
                             </div>
-                            <div className="col-md-4 media">
-                                <i>
-
-                                </i>
+                            <div className="col-md-4 media mt-0">
+                                <div className="icon bg-warning mr-3 mt-1">
+                                    <FontAwesomeIcon icon={['far','hand-scissors']} />
+                                </div>
                                 <div className="media-body">
                                     <h4 className="mt-0">
                                         Customizable
@@ -48,9 +50,9 @@ export default class Elements extends Component {
                                 </div>
                             </div>
                             <div className="col-md-4 media">
-                                <i>
-
-                                </i>
+                                <div className="icon bg-danger mr-3 mt-1">
+                                    <FontAwesomeIcon icon={['far','comments']} />
+                                </div>
                                 <div className="media-body">
                                     <h4 className="mt-0">
                                         Quick support
@@ -63,9 +65,9 @@ export default class Elements extends Component {
                         </div>
                         <div className="row">
                             <div className="col-md-4 media mt-5">
-                                <i>
-
-                                </i>
+                                <div className="icon bg-success mr-3 mt-1">
+                                    <FontAwesomeIcon icon={['far','clone']} />
+                                </div>
                                 <div className="media-body">
                                     <h4 className="mt-0">
                                         Cross browser
@@ -75,10 +77,10 @@ export default class Elements extends Component {
                                     We're working hard to support them.
                                 </div>
                             </div>
-                            <div className="col-md-4 media mt-5">
-                                <i>
-
-                                </i>
+                            <div className="col-md-4 media mt-5 mb-5">
+                                <div className="icon bg-danger mr-3">
+                                    <FontAwesomeIcon icon={['far', 'gem']} />                               
+                                </div>
                                 <div className="media-body">
                                     <h4 className="mt-0">
                                         Clean code
@@ -89,9 +91,9 @@ export default class Elements extends Component {
                                 </div>
                             </div>
                             <div className="col-md-4 media mt-5">
-                                <i>
-
-                                </i>
+                                <div className="icon bg-primary mr-3">
+                                    <FontAwesomeIcon icon={['far','arrow-alt-circle-down']} />
+                                </div>
                                 <div className="media-body">
                                     <h4 className="mt-0">
                                         Free updates

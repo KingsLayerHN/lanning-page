@@ -63,4 +63,15 @@ div.intro-content{
     background-color: bisque;
     width: 100vw;
 }
+.icon{
+    font-size: 2rem;
+    border-radius: 6px;
+    color: #FFF;
+    text-align: center;
+    padding: 2px 15px 6px 15px;
+}
+
+
+
+
 
