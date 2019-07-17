@@ -15,11 +15,11 @@ export default class Discover extends Component {
                             </h2>
                         </div>
                         <div className="col-5 blockquote">
-                            <spam>
+                            <p>
                                 Robust includes various demo pages for building your
                                 custom app, blog or landing page. All code is handwritten,
                                 all our components are optimized for desktop, tablet and mobile.
-                            </spam>
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -8,19 +8,20 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
-library.add(far,fab); //agrega los prefijos para usar fontAwesomeregular y brands respectivamente
+library.add(far, fab); //agrega los prefijos para usar fontAwesomeregular y brands respectivamente
 
 class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="pincipal-content">
         <Principal />
         <Discover />
         <Ipad />
-        <Elements />
-        <Carrousel />
+        <Elements/>
+        <Carrousel/>
       </div>
+
     )
   }
 }
