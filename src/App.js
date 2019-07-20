@@ -3,6 +3,7 @@ import Principal from './components/Principal';
 import Discover from './components/Discover';
 import Ipad from './components/Ipad';
 import Elements from './components/Elements';
+import Integrated from './components/Integrated';
 import Carrousel from './components/Carrousel';
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -20,8 +21,8 @@ class App extends Component {
         <Ipad />
         <Elements/>
         <Carrousel/>
+        <Integrated/>
       </div>
-
     )
   }
 }
