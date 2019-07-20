@@ -114,7 +114,15 @@ div.intro-content{
   .npm, .babel {
       max-width: 13% !important;
   }
-
+.adress{
+    list-style: none;
+}
+.adress li {
+    margin-bottom: .5rem;
+}
+.text-footer{
+    font-size: 75%; 
+}
 
 
 
