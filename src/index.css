@@ -38,8 +38,8 @@ div.intro-content{
     .navbar{
         background: rgba(0,0,0,.65);
     }
-}
 
+}
 
 .explore-pages{
     text-decoration: none;
@@ -69,11 +69,6 @@ div.intro-content{
     color: #FFF;
     text-align: center;
     padding: 2px 15px 6px 15px;
-}
-.img1 {
-    border-radius: 100%;
-    max-width: 11% !important;
-    margin-bottom: 20px;;
 }
 
 .bg-blue{
@@ -124,7 +119,12 @@ div.intro-content{
     font-size: 75%; 
 }
 
-
+.img1 {
+    border-radius: 100%;
+    max-width: 150px !important;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+}
 
 
 

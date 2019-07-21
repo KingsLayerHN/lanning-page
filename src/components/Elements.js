@@ -7,8 +7,8 @@ export default class Elements extends Component {
 
             <div className="bg-elements">
                 <div className="container">
-                    <div className="row mt-5">
-                        <div className="col-md-3 offset-2 mt-5 mb-5">
+                    <div className="row mb-3">
+                        <div className="col-md-3 offset-md-2 mt-5">
                             <h2>
                                 Enormous collection of elements
                             </h2>
@@ -22,7 +22,7 @@ export default class Elements extends Component {
                     </div>
                     <div className="icon-container">
                         <div className="row">
-                            <div className="col-md-4 media mt-0">
+                            <div className="col-md-4 media mt-0 mb-3">
                                 <div className="icon bg-primary mr-3 mt-1">
                                     <FontAwesomeIcon icon={['far','id-badge']} />
                                 </div>
@@ -36,7 +36,7 @@ export default class Elements extends Component {
                                     responsive in all browsers.
                                 </div>
                             </div>
-                            <div className="col-md-4 media mt-0">
+                            <div className="col-md-4 media mt-0 mb-3">
                                 <div className="icon bg-warning mr-3 mt-1">
                                     <FontAwesomeIcon icon={['far','hand-scissors']} />
                                 </div>
@@ -49,8 +49,8 @@ export default class Elements extends Component {
                                     readable and well documented.
                                 </div>
                             </div>
-                            <div className="col-md-4 media">
-                                <div className="icon bg-danger mr-3 mt-1">
+                            <div className="col-md-4 media mb-4">
+                                <div className="icon bg-danger mr-3 mt-3">
                                     <FontAwesomeIcon icon={['far','comments']} />
                                 </div>
                                 <div className="media-body">
@@ -63,9 +63,9 @@ export default class Elements extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-md-4 media mt-5">
-                                <div className="icon bg-success mr-3 mt-1">
+                        <div className="row pb-5">
+                            <div className="col-md-4 media mt-3">
+                                <div className="icon bg-success mr-3">
                                     <FontAwesomeIcon icon={['far','clone']} />
                                 </div>
                                 <div className="media-body">
@@ -77,7 +77,7 @@ export default class Elements extends Component {
                                     We're working hard to support them.
                                 </div>
                             </div>
-                            <div className="col-md-4 media mt-5 mb-5">
+                            <div className="col-md-4 media mt-3">
                                 <div className="icon bg-danger mr-3">
                                     <FontAwesomeIcon icon={['far', 'gem']} />                               
                                 </div>
@@ -90,7 +90,7 @@ export default class Elements extends Component {
                                     All code is handwritten.
                                 </div>
                             </div>
-                            <div className="col-md-4 media mt-5">
+                            <div className="col-md-4 media mt-3">
                                 <div className="icon bg-primary mr-3">
                                     <FontAwesomeIcon icon={['far','arrow-alt-circle-down']} />
                                 </div>

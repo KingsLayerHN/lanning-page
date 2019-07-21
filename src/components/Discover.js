@@ -24,8 +24,8 @@ export default class Discover extends Component {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row mt-5">
-                        <div className="col-md-4 col-sm-12">
+                    <div className="row">
+                        <div className="col-md-4 col-sm-12 mb-3">
                             <div className="content-landing">
                                 <a href="">
                                     <img className="img-fluid img-landing" alt="img esponsive" src={landing}></img>
@@ -40,7 +40,7 @@ export default class Discover extends Component {
                                 <a className="explore-pages" href="">Explore Pages</a>
                             </div>
                         </div>
-                        <div className="col-md-4 col-sm-12">
+                        <div className="col-md-4 col-sm-12 mb-3">
                             <div className="content-dashboard">
                                 <a href="">
                                     <img className="img-fluid img-dashboard" alt="img responsive" src={dashboard}></img>
