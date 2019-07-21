@@ -12,13 +12,13 @@ export default class Integrated extends Component {
             <div className="bg-integrated pb-5">
                 <div className="container">
                     <div className="row pt-5 pb-5">
-                        <div className="col-3 offset-2">
+                        <div className="col-md-3 offset-md-2 col-sm-12">
                             <h2>
                                 Integrates with all
                                 your favorite tools
                             </h2>
                         </div>
-                        <div className="col-5 ">
+                        <div className="col-md-5 col-sm-12 ">
                             <p className="blockquote">
                                 Robust uses industry standard build tools
                                 and plugins such as Sass, jQuery, Webpack,
@@ -27,7 +27,7 @@ export default class Integrated extends Component {
                              </p>
                         </div>
                     </div>
-                    <div className="row align-items-center mb-3">
+                    <div className="row align-items-center mb-sm-3">
                         <div className="col-md-2 offset-1 sass">
                             <img src={logoSass} className="img-fluid" alt="Sass"></img>
                         </div>

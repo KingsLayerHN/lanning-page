@@ -17,10 +17,10 @@ export default class Carrousel extends Component {
                         </ol>
                         <div className="carousel-inner" role="listbox">
                             <div className="carousel-item active">
-                                <div className="row align-items-center">
-                                    <img className="col-md-2 offset-md-2 col-sm-5 col-xs-12 img1" alt="img-girl" src={girl}></img>
+                                <div className="row align-items-center justify-content-center">
+                                    <img className="col-md-2 offset-md-2 col-sm-5 col-xs-12  mx-sm-0 img1" alt="img-girl" src={girl}></img>
                                     <div className="col-md-7 col-sm-7 col-xs-12 text-white">
-                                        <p className="blockquote">
+                                        <p className="blockquote m-xs-3">
                                             "I can only recommend both this theme and the Component
                                             developer behind it to other people. quick & helpful support!"
                                         </p>
@@ -29,10 +29,10 @@ export default class Carrousel extends Component {
                                 </div>
                             </div>
                             <div className="carousel-item ">
-                                <div className="row align-items-center">
-                                    <img className="col-md-2 offset-md-2  col-sm-5  col-xs-12 img1" alt="img-boy" src={boy}></img>
-                                    <div className="col-md-7 col-sm-7 col-xs-12 text-white">
-                                        <p className="blockquote ">
+                                <div className="row align-items-center justify-content-center">
+                                    <img className="col-md-2 offset-md-2  col-sm-5  col-xs-12 mx-sm-0 img1" alt="img-boy" src={boy}></img>
+                                    <div className="col-md-7 col-sm-7 col-xs-12 text-white px-3">
+                                        <p className="blockquote m-xs-3">
                                             "I can only recommend both this theme and the Component
                                             developer behind it to other people. quick & helpful support!"
                                         </p>
@@ -40,11 +40,11 @@ export default class Carrousel extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="carousel-item">
-                                <div className="row align-items-center">
-                                    <img className="col-md-2 offset-2 col-sm-5 col-xs-12 img1" alt="img-teenfirl" src={teenGirl}></img>
-                                    <div className="col-md-7 col-sm-7 col-xs-12 text-white">
-                                        <p className="blockquote ">
+                            <div className="carousel-item ">
+                                <div className="row align-items-center justify-content-center">
+                                    <img className="col-md-2 offset-md-2 col-sm-5 col-xs-12 m-sm-0 img1" alt="img-teenfirl" src={teenGirl}></img>
+                                    <div className="col-md-7 col-sm-7  col-xs-12 text-white m-xs-3">
+                                        <p className="blockquote">
                                             "I can only recommend both this theme and the Component
                                             developer behind it to other people. quick & helpful support!"
                                         </p>
