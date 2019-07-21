@@ -18,8 +18,8 @@ export default class Carrousel extends Component {
                         <div className="carousel-inner" role="listbox">
                             <div className="carousel-item active">
                                 <div className="row align-items-center">
-                                    <img className="col-md-2 offset-md-2 col-sm-5 col-xs-6 img1" alt="img-girl" src={girl}></img>
-                                    <div className="col-md-7 col-sm-7 col-xs-6 text-white">
+                                    <img className="col-md-2 offset-md-2 col-sm-5 col-xs-12 img1" alt="img-girl" src={girl}></img>
+                                    <div className="col-md-7 col-sm-7 col-xs-12 text-white">
                                         <p className="blockquote">
                                             "I can only recommend both this theme and the Component
                                             developer behind it to other people. quick & helpful support!"
@@ -28,10 +28,10 @@ export default class Carrousel extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="carousel-item">
-                                <div className="row">
-                                    <img className="col-md-2 offset-md-2 img-responsive img1" alt="img-boy" src={boy}></img>
-                                    <div className="col-md-7 text-white">
+                            <div className="carousel-item ">
+                                <div className="row align-items-center">
+                                    <img className="col-md-2 offset-md-2  col-sm-5  col-xs-12 img1" alt="img-boy" src={boy}></img>
+                                    <div className="col-md-7 col-sm-7 col-xs-12 text-white">
                                         <p className="blockquote ">
                                             "I can only recommend both this theme and the Component
                                             developer behind it to other people. quick & helpful support!"
@@ -41,9 +41,9 @@ export default class Carrousel extends Component {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <div className="row">
-                                    <img className="col-md-2 offset-2 img-responsive img1" alt="img-teenfirl" src={teenGirl}></img>
-                                    <div className="col-md-7 text-white">
+                                <div className="row align-items-center">
+                                    <img className="col-md-2 offset-2 col-sm-5 col-xs-12 img1" alt="img-teenfirl" src={teenGirl}></img>
+                                    <div className="col-md-7 col-sm-7 col-xs-12 text-white">
                                         <p className="blockquote ">
                                             "I can only recommend both this theme and the Component
                                             developer behind it to other people. quick & helpful support!"
