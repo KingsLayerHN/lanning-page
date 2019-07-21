@@ -8,7 +8,7 @@ export default class Ipad extends Component {
             <div className="bg-light">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-5 mr-auto align-self-center mb-5">
+                        <div className="col-md-5 mr-auto align-self-center  mt-5">
                             <h3>Multi-device support</h3>
                             <p>
                                 All pages inside Robust are optimized for mobile,

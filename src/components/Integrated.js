@@ -40,10 +40,10 @@ export default class Integrated extends Component {
                         <div className="col-md-2 webpack ml-2">
                             <img src={logoWebpack} className="img-fluid" alt="webpack"></img>
                         </div>  
-                        <div className="col-md-2 webpack babel">
+                        <div className="col-md-2 babel">
                             <img src={logoBabel} className="img-fluid" alt="babel"></img>
                         </div>  
-                        <div className="col-md-2 webpack npm">
+                        <div className="col-md-2 npm">
                             <img src={logoNpm} className="img-fluid" alt="npm"></img>
                         </div>                 
                     </div>

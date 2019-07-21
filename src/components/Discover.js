@@ -8,13 +8,13 @@ export default class Discover extends Component {
         return (
             <div className="bg-principal">
                 <div className="container">
-                    <div className="row landing-text">
-                        <div className="col-4 offset-2 ">
+                    <div className="row landing-text mt-5 p-3">
+                        <div className="col-md-4 offset-md-2 col-sm-12">
                             <h2>
                                 Discover our landing, app & blog pages
                             </h2>
                         </div>
-                        <div className="col-5 blockquote">
+                        <div className="col-md-5 col-sm-12 blockquote">
                             <p>
                                 Robust includes various demo pages for building your
                                 custom app, blog or landing page. All code is handwritten,
@@ -25,12 +25,12 @@ export default class Discover extends Component {
                 </div>
                 <div className="container">
                     <div className="row mt-5">
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <div className="content-landing">
                                 <a href="">
-                                    <img className="img-fluid mb-5 img-landing" alt="img esponsive" src={landing}></img>
+                                    <img className="img-fluid img-landing" alt="img esponsive" src={landing}></img>
                                 </a>
-                                <h4>
+                                <h4 className="mt-3">
                                     Landing
                                 </h4>
                                 <p className="langing-text">
@@ -40,12 +40,12 @@ export default class Discover extends Component {
                                 <a className="explore-pages" href="">Explore Pages</a>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <div className="content-dashboard">
                                 <a href="">
-                                    <img className="img-fluid mb-5 img-dashboard" alt="img responsive" src={dashboard}></img>
+                                    <img className="img-fluid img-dashboard" alt="img responsive" src={dashboard}></img>
                                 </a>
-                                <h4>
+                                <h4 className="mt-3">
                                     Dashboard
                                 </h4>
                                 <p className="dashboard-text">
@@ -55,12 +55,12 @@ export default class Discover extends Component {
                                 <a className="explore-pages" href="">Explore Pages</a>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-md-4 col-sm-12">
                             <div className="content-pages">
                                 <a href="">
-                                    <img className="img-fluid mb-5 img-pages" alt="img responsive" src={pages}></img>
+                                    <img className="img-fluid img-pages" alt="img responsive" src={pages}></img>
                                 </a>
-                                <h4>
+                                <h4 className="mt-3">
                                     Pages
                                 </h4>
                                 <p className="pages-text">

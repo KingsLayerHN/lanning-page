@@ -18,7 +18,7 @@ export default class Carrousel extends Component {
                         <div className="carousel-inner" role="listbox">
                             <div className="carousel-item active">
                                 <div className="row align-items-center">
-                                    <img className="col-md-2 offset-2  img1" src={girl}></img>
+                                    <img className="col-md-2 offset-2  img1" alt="img-girl" src={girl}></img>
                                     <div className="col-md-7 text-white">
                                         <p className="blockquote">
                                             "I can only recommend both this theme and the Component
@@ -30,7 +30,7 @@ export default class Carrousel extends Component {
                             </div>
                             <div className="carousel-item">
                                 <div className="row">
-                                    <img className="col-md-2 offset-2 img-responsive img1" src={boy}></img>
+                                    <img className="col-md-2 offset-md-2 img-responsive img1" alt="img-boy" src={boy}></img>
                                     <div className="col-md-7 text-white">
                                         <p className="blockquote ">
                                             "I can only recommend both this theme and the Component
@@ -42,7 +42,7 @@ export default class Carrousel extends Component {
                             </div>
                             <div className="carousel-item">
                                 <div className="row">
-                                    <img className="col-md-2 offset-2 img-responsive img1" src={teenGirl}></img>
+                                    <img className="col-md-2 offset-2 img-responsive img1" alt="img-teenfirl" src={teenGirl}></img>
                                     <div className="col-md-7 text-white">
                                         <p className="blockquote ">
                                             "I can only recommend both this theme and the Component
